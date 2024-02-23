@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 
 import authRoutes from "./routes/auth.routes.js"
+import messageRoutes from "./routes/message.routes.js"
 import connectToMongoDB from "./db/connectToMongoDB.js";
 
 const app = express();
@@ -14,6 +15,7 @@ app.use(express.json()); // to parse the incoming request with JSON payload (fro
 
 
 app.use("/api/auth", authRoutes)
+app.use("/api/messages", messageRoutes)
 
 
 
