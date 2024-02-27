@@ -2,7 +2,7 @@ import { IoSearch } from "react-icons/io5";
 
 const SearchInput = () => {
   return (
-    <form className="flex items-center gap-2">
+    <form className="flex items-center gap-2 p-2">
       <input
         type="text"
         placeholder="Search..."
