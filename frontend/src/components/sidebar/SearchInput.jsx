@@ -6,7 +6,7 @@ const SearchInput = () => {
       <input
         type="text"
         placeholder="Search..."
-        className="input input-bordered rounded-full"
+        className="input input-bordered rounded-full bg-slate-700 "
       />
       <button type="submit" className="btn btn-circle bg-sky-500 text-white">
         <IoSearch className="w-6 h-6 outline-none" />

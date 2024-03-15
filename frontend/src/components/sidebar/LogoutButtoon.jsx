@@ -1,9 +1,9 @@
-import { BiLogout } from "react-icons/bi";
+import { BiLogOut } from "react-icons/bi";
 
 const LogoutButtoon = () => {
   return (
     <div className="mt-auto">
-      <BiLogout />
+      <BiLogOut className="w-6 text-black cursor-pointer" />
     </div>
   );
 };
